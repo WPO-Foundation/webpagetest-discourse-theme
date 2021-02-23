@@ -1,0 +1,40 @@
+body {
+    background-color: var(--body-bg);
+}
+.d-header {
+    box-shadow: none;
+    height: 5em;
+}
+#main-outlet {
+    padding-top: 3em;
+}
+#main-outlet .list-controls{
+    background: var(--secondary);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 15px 20px;
+    margin-bottom: 3em;
+}
+
+#main-outlet .list-container, #main-outlet > .regular, #main-outlet > .show-badge,
+#main-outlet .container.badges, #main-outlet .user-main, #main-outlet .directory,
+#main-outlet .all-tag-lists, #main-outlet .tag-sort-options, #main-outlet .cakeday, .groups-page #main-outlet,
+#main-outlet > .group,  {
+    background: var(--secondary);
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 20px 15px 20px;
+}
+.groups-page #main-outlet{
+    margin-top: 3em;
+}
+.navigation-controls .btn-default{
+    background: #F9D856;
+    color: #000;
+    padding: .5em 2em;
+    border-radius: 4px;
+}
+.nav-pills > li a.active,
+.list-controls .combo-box .combo-box-header{
+    border-radius: 4px;
+}
