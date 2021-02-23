@@ -19,11 +19,14 @@ body {
 #main-outlet .list-container, #main-outlet > .regular, #main-outlet > .show-badge,
 #main-outlet .container.badges, #main-outlet .user-main, #main-outlet .directory,
 #main-outlet .all-tag-lists, #main-outlet .tag-sort-options, #main-outlet .cakeday, .groups-page #main-outlet,
-#main-outlet > .group, #main-outlet .admin-main-nav, #main-outlet .admin-content {
+#main-outlet > .group, #main-outlet .admin-main-nav .nav, #main-outlet .admin-content {
     background: var(--secondary);
     border-radius: 10px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
     padding: 20px 20px 15px 20px;
+}
+#main-outlet .admin-main-nav .nav{
+    margin-bottom: 3em;
 }
 .groups-page #main-outlet{
     margin-top: 3em;
